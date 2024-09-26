@@ -1,0 +1,52 @@
+body {
+    background-color: #00d2d3;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.wrapper {
+    display: inline-block;
+    width: 80%;
+    background-color: white;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.contact-form {
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+form {
+    display: block;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: #ffcd02;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.contact-info {
+    display: inline-block;
+    width: 35%;
+    margin-left: 5%;
+}
+
+.contact-info h2, .contact-info p {
+    color: black;
+}
+
